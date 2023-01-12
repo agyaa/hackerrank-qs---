@@ -33,7 +33,7 @@ int main()
     while (total_number_of_queries--) 
     {
         int type_of_query, x, y;
-        scanf("%d, %d", &type_of_query, &x);
+        scanf("%d %d", &type_of_query, &x);
         
         if (type_of_query == 1) 
         {
